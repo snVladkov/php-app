@@ -4,8 +4,8 @@
 try {
     $host = '127.0.0.1';
     $db   = 'laptops';
-    $user = 'root';
-    $pass = '';
+    $user = 'laptops_user';
+    $pass = '123456';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
